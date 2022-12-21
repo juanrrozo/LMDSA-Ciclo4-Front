@@ -28,8 +28,9 @@ export const TopMenu = () => {
   };
 
   const bootstrapMenu = () => (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="" expand="lg">
       {isAuth() ? (
+
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

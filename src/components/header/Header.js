@@ -12,7 +12,7 @@ export const Header = () => {
         <img className="logo" src={logo} alt="logo" />
       </div>
       <div className="flex text-center">
-        <h1>Bienvenido Inicia sesión</h1>
+        <h1>Bienvenido </h1>
       </div>
 
       {isAuth() ? <TopMenu /> : ""}

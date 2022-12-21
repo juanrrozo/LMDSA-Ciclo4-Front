@@ -1,31 +1,36 @@
-/* div.scrollmenu {
-    background-color: #333;
+.body{
+  background-color: rgba(138, 0, 0, 0.726)
+
+} 
+ 
+ div.scrollmenu {
+    background-color: rgba(138, 0, 0, 0.726);
     overflow: auto;
     white-space: nowrap;
   }
   
   div.scrollmenu a {
     display: inline-block;
-    color: white;
+    color: rgba(138, 0, 0, 0.726);
     text-align: center;
     padding: 14px;
     text-decoration: none;
   }
   
   div.scrollmenu a:hover {
-    background-color: #777;
+    background-color: rgba(138, 0, 0, 0.726);
   }
 
   
 .navbar {
   overflow: hidden;
-  background-color: #333; 
+  background-color: rgb(214, 214, 214);
 }
 
 .navbar a {
-  float: left;
+  float: center;
   font-size: 16px;
-  color: white;
+  color: rgb(82, 41, 41);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -40,7 +45,7 @@
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
+  color: rgba(138, 0, 0, 0.726);
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -48,29 +53,29 @@
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
+  background-color:rgba(138, 0, 0, 0.726);
 }
 
 .subnav-content {
   display: none;
   position: absolute;
   left: 0;
-  background-color: red;
+  background-color: rgba(138, 0, 0, 0.726);
   width: 100%;
   z-index: 1;
 }
 
 .subnav-content a {
   float: left;
-  color: white;
+  color: rgba(138, 0, 0, 0.726);
   text-decoration: none;
 }
 
 .subnav-content a:hover {
-  background-color: #eee;
+  background-color: rgb(0, 0, 0);
   color: black;
 }
 
 .subnav:hover .subnav-content {
   display: block;
-} */
+} 

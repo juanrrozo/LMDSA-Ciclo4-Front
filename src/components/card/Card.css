@@ -1,5 +1,5 @@
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 15px 0px rgb(255 0 0);
   transition: 0.3s;
 }
 
@@ -12,12 +12,12 @@
 }
 
 .container {
-  padding: 2px 16px;
+  padding: 3px 16px;
 }
 
 .btn{
-  padding: 10px ;
-  background-color: brown;
+  padding: 15px ;
+  background-color: rgb(102, 5, 5);
   color: white;
   font-size: 1rem;
   border: none;

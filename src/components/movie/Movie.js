@@ -95,16 +95,10 @@ export const Movie = () => {
   };
 
   const checkIsInList = () => {
-    //consumir el api
-    //validar si está activa
     setIsActive(true);
   };
 
   const handleAddList = async () => {
-    //comunicación con backend, enviandoles el id de esta pelicula y enviandole el token
-    //backend debería tomar ese id pelicula, buscar esa pelicula en la bd, después el usuarios
-    //debería guardar en una entidad playlist->id cliente, id pelicula, la fecha,state =>1 activo, 2=>oculto
-    //mensaje indicanole al usuario que ya se agregó
   };
 
   return (
@@ -115,7 +109,7 @@ export const Movie = () => {
         height="515"
         src={
           !movie.trailerLink
-            ? "https://www.youtube-nocookie.com/embed/4Lp-Vc4i2QI"
+            ? ""
             : movie.trailerLink
         }
         title={movie.name}
@@ -134,7 +128,7 @@ export const Movie = () => {
                     {staff.name} {staff.lastName} ({staff.rol})
                   </p>
                 ))
-              : "No hay elenco definido"}
+              : "No hay elenco definido para esta pelicula"}
           </div>
           <div className="category-list">
             {movie.categories && movie.categories.length > 0
