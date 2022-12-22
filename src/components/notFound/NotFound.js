@@ -1,3 +1,6 @@
+/*
+ @autor Juan
+ */
 export const NotFound = () => {
   return (
     <div>

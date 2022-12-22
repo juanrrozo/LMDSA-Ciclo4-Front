@@ -1,3 +1,6 @@
+/*
+ @autor Juan
+ */
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import "./App.css";

@@ -14,10 +14,10 @@
   /* position: fixed; */
   bottom: 0;
 
-  color: #f1f1f1;
-  width: 80%;
-  text-align: left;
-  padding: 20px;
+  color: #ffffff;
+  width: 95%;
+  text-align: center;
+  padding: 25px;
 }
 
 #myBtn {
@@ -25,7 +25,7 @@
   font-size: 18px;
   padding: 10px;
   border: none;
-  background: #000;
+  background: rgb(255, 255, 255);
   color: #fff;
   cursor: pointer;
 }
@@ -36,5 +36,6 @@
 }
 
 .active {
-  background-color: red;
+  color: aliceblue;
+  background-color: rgba(189, 4, 4, 0.904);
 }

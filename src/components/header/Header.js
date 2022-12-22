@@ -1,3 +1,6 @@
+/*
+ @autor Juan
+ */
 import { useEffect } from "react";
 import logo from "../../assets/img/LMDSA.png";
 import { isAuth } from "../../util/Util";

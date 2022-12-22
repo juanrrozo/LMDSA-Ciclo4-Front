@@ -1,3 +1,6 @@
+/*
+ @autor Juan
+ */
 import Swal from "sweetalert2";
 
 export const getToken = () => {

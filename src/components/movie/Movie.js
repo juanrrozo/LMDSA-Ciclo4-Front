@@ -1,3 +1,6 @@
+/*
+ @autor Juan
+ */
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./Movie.css";
@@ -140,7 +143,7 @@ export const Movie = () => {
               : "No hay categorías definidas"}
           </div>
           <div className="rate">
-            <p>Calificar pelicula</p>
+            <h1>Calificar pelicula</h1>
             <select value={scoreSelected} onChange={sendScore}>
               <option>Sin calificar</option>
               {score.map((element, idx) => (

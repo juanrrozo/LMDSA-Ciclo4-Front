@@ -1,3 +1,6 @@
+/*
+ @autor Juan
+ */
 import "./Content.css";
 
 import { Card } from "../card/Card";
@@ -42,7 +45,7 @@ export const Content = () => {
           staffList={movie.staffList}
           image={
             !movie.imageLink
-              ? "https://picsum.photos/seed/picsum/200/300"
+              ? ""
               : movie.imageLink
           }
           id={movie.id}
